@@ -149,35 +149,35 @@
     },
     {
       "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
-      "line": 286,
+      "line": 289,
       "symbol": "VizAIApp.activate_screenshots()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
-      "line": 303,
+      "line": 309,
       "symbol": "VizAIApp.deactivate_screenshots()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
-      "line": 307,
+      "line": 316,
       "symbol": "VizAIApp.start_recording(sessionName:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
-      "line": 348,
+      "line": 360,
       "symbol": "VizAIApp.stop_recording()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
-      "line": 623,
+      "line": 638,
       "symbol": "VizAIApp.captureOutput(_:didOutput:from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
