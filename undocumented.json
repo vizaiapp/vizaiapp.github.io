@@ -1,0 +1,187 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/Math.swift",
+      "line": 25,
+      "symbol": "clamp(_:min:max:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 28,
+      "symbol": "MultiArrayType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 29,
+      "symbol": "MultiArrayType.multiArrayDataType",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 30,
+      "symbol": "MultiArrayType.+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 31,
+      "symbol": "MultiArrayType.*(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 32,
+      "symbol": "MultiArrayType.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 33,
+      "symbol": "MultiArrayType.toUInt8",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 37,
+      "symbol": "Double.multiArrayDataType",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 38,
+      "symbol": "Double.toUInt8",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 42,
+      "symbol": "Float.multiArrayDataType",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 43,
+      "symbol": "Float.toUInt8",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 47,
+      "symbol": "Int32.multiArrayDataType",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 48,
+      "symbol": "Int32.toUInt8",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 55,
+      "symbol": "MultiArray.array",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 56,
+      "symbol": "MultiArray.pointer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 58,
+      "symbol": "MultiArray.strides",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/CoreML Helpers/MultiArray.swift",
+      "line": 59,
+      "symbol": "MultiArray.shape",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": null,
+      "symbol": "VizAIApp",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": 78,
+      "symbol": "VizAIApp",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": 115,
+      "symbol": "VizAIApp.shared()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": 119,
+      "symbol": "VizAIApp.configure(apiKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": 286,
+      "symbol": "VizAIApp.activate_screenshots()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": 303,
+      "symbol": "VizAIApp.deactivate_screenshots()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": 307,
+      "symbol": "VizAIApp.start_recording(sessionName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": 348,
+      "symbol": "VizAIApp.stop_recording()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
+      "line": 623,
+      "symbol": "VizAIApp.captureOutput(_:didOutput:from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK"
+}
