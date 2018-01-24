@@ -14,7 +14,7 @@
     <a title="VizAIApp Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">VizAISDK Docs</a> (69% documented)</p>
+        <p><a href="../index.html">VizAISDK Docs</a> (83% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -31,7 +31,21 @@
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Classes/UICircularProgressRingView.html">UICircularProgressRingView</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/VizAIApp.html">VizAIApp</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/UICircularProgressRingGradientPosition.html">UICircularProgressRingGradientPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UICircularProgressRingStyle.html">UICircularProgressRingStyle</a>
               </li>
             </ul>
           </li>
@@ -102,6 +116,9 @@
               <li class="nav-group-task">
                 <a href="../Protocols/MultiArrayType.html">MultiArrayType</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UICircularProgressRingDelegate.html">UICircularProgressRingDelegate</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -120,7 +137,7 @@
             <h1>VizAIApp</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">VizAIApp</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">VizAIApp</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                 </div>
               </div>
@@ -150,7 +167,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">shared</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">VizAIApp</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">shared</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">VizAIApp</span></code></pre>
 
                         </div>
                       </div>
@@ -177,7 +194,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">configure</span><span class="p">(</span><span class="nv">apiKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">configure</span><span class="p">(</span><span class="nv">apiKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -187,9 +204,63 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8VizAISDK0A5AIAppC20activate_screenshotsyyF"></a>
-                    <a name="//apple_ref/swift/Method/activate_screenshots()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK0A5AIAppC20activate_screenshotsyyF">activate_screenshots()</a>
+                    <a name="/s:8VizAISDK0A5AIAppC19activateScreenshotsyyF"></a>
+                    <a name="//apple_ref/swift/Method/activateScreenshots()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8VizAISDK0A5AIAppC19activateScreenshotsyyF">activateScreenshots()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Streams screenshots and their view controller labels to the VizAI service.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">activateScreenshots</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8VizAISDK0A5AIAppC21deactivateScreenshotsyyF"></a>
+                    <a name="//apple_ref/swift/Method/deactivateScreenshots()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8VizAISDK0A5AIAppC21deactivateScreenshotsyyF">deactivateScreenshots()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stops streaming screenshots.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deactivateScreenshots</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8VizAISDK0A5AIAppC23overlayScreenshotButtonyyF"></a>
+                    <a name="//apple_ref/swift/Method/overlayScreenshotButton()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8VizAISDK0A5AIAppC23overlayScreenshotButtonyyF">overlayScreenshotButton()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -204,7 +275,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">activate_screenshots</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">overlayScreenshotButton</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -214,9 +285,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8VizAISDK0A5AIAppC22deactivate_screenshotsyyF"></a>
-                    <a name="//apple_ref/swift/Method/deactivate_screenshots()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK0A5AIAppC22deactivate_screenshotsyyF">deactivate_screenshots()</a>
+                    <a name="/s:8VizAISDK0A5AIAppC22removeScreenshotButtonyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeScreenshotButton()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8VizAISDK0A5AIAppC22removeScreenshotButtonyyF">removeScreenshotButton()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -231,7 +302,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deactivate_screenshots</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeScreenshotButton</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -241,9 +312,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8VizAISDK0A5AIAppC15start_recordingySSSg11sessionName_tF"></a>
-                    <a name="//apple_ref/swift/Method/start_recording(sessionName:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK0A5AIAppC15start_recordingySSSg11sessionName_tF">start_recording(sessionName:)</a>
+                    <a name="/s:8VizAISDK0A5AIAppC14startRecordingySSSg11sessionName_tF"></a>
+                    <a name="//apple_ref/swift/Method/startRecording(sessionName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8VizAISDK0A5AIAppC14startRecordingySSSg11sessionName_tF">startRecording(sessionName:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -258,7 +329,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">start_recording</span><span class="p">(</span><span class="nv">sessionName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">startRecording</span><span class="p">(</span><span class="nv">sessionName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -268,9 +339,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8VizAISDK0A5AIAppC14stop_recordingyyF"></a>
-                    <a name="//apple_ref/swift/Method/stop_recording()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK0A5AIAppC14stop_recordingyyF">stop_recording()</a>
+                    <a name="/s:8VizAISDK0A5AIAppC13stopRecordingyyF"></a>
+                    <a name="//apple_ref/swift/Method/stopRecording()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8VizAISDK0A5AIAppC13stopRecordingyyF">stopRecording()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -285,7 +356,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stop_recording</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopRecording</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -323,7 +394,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">captureOutput</span><span class="p">(</span><span class="n">_</span> <span class="nv">output</span><span class="p">:</span> <span class="kt">AVCaptureOutput</span><span class="p">,</span> <span class="n">didOutput</span> <span class="nv">sampleBuffer</span><span class="p">:</span> <span class="kt">CMSampleBuffer</span><span class="p">,</span> <span class="n">from</span> <span class="nv">connection</span><span class="p">:</span> <span class="kt">AVCaptureConnection</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">captureOutput</span><span class="p">(</span><span class="n">_</span> <span class="nv">output</span><span class="p">:</span> <span class="kt">AVCaptureOutput</span><span class="p">,</span> <span class="n">didOutput</span> <span class="nv">sampleBuffer</span><span class="p">:</span> <span class="kt">CMSampleBuffer</span><span class="p">,</span> <span class="n">from</span> <span class="nv">connection</span><span class="p">:</span> <span class="kt">AVCaptureConnection</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -335,8 +406,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="http://vizaiapp.github.io/" target="_blank" rel="external">Ethan Petersen</a>. All rights reserved. (Last updated: 2018-01-05)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2018 <a class="link" href="http://vizaiapp.github.io/" target="_blank" rel="external">Ethan Petersen</a>. All rights reserved. (Last updated: 2018-01-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

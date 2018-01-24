@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Classes  Reference</title>
+    <title>Enumerations  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,7 +10,7 @@
     
   </head>
   <body>
-    <a title="Classes  Reference"></a>
+    <a title="Enumerations  Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="index.html">VizAISDK Docs</a> (83% documented)</p>
@@ -20,7 +20,7 @@
       <p id="breadcrumbs">
         <a href="index.html">VizAISDK Reference</a>
         <img id="carat" src="img/carat.png" />
-        Classes  Reference
+        Enumerations  Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -133,8 +133,8 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Classes</h1>
-            <p>The following classes are available globally.</p>
+            <h1>Enumerations</h1>
+            <p>The following enumerations are available globally.</p>
 
           </section>
           <section class="section task-group-section">
@@ -143,9 +143,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VizAISDK@objc(cs)UICircularProgressRingView"></a>
-                    <a name="//apple_ref/swift/Class/UICircularProgressRingView" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VizAISDK@objc(cs)UICircularProgressRingView">UICircularProgressRingView</a>
+                    <a name="/c:@M@VizAISDK@E@UICircularProgressRingGradientPosition"></a>
+                    <a name="//apple_ref/swift/Enum/UICircularProgressRingGradientPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VizAISDK@E@UICircularProgressRingGradientPosition">UICircularProgressRingGradientPosition</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -153,30 +153,22 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <h1 id='uiciruclarprogressringview' class='heading'>UICiruclarProgressRingView</h1>
+                        <h1 id='uicircularprogressringgradientposition' class='heading'>UICircularProgressRingGradientPosition</h1>
 
-<p>This is the UIView subclass that creates and handles everything
-to do with the progress ring</p>
-
-<p>This class has a custom CAShapeLayer (UICircularProgressRingLayer) which
-handels the drawing and animating of the view</p>
-
-<p>The properties in this class correspond with the 
-properties in UICircularProgressRingLayer.
-When they are set in here, they are also set for the layer and drawn accordingly</p>
-
-<p>Read the docs for what each property does and what can be customized.</p>
+<p>This is an enumeration which is used to determine the position for a
+gradient. Used inside the <code>UICircularProgressRingLayer</code> to allow customization
+for the gradient.</p>
 <h2 id='author' class='heading'>Author</h2>
 
 <p>Luis Padron</p>
 
-                        <a href="Classes/UICircularProgressRingView.html" class="slightly-smaller">See more</a>
+                        <a href="Enums/UICircularProgressRingGradientPosition.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBDesignable</span> <span class="kd">open</span> <span class="kd">class</span> <span class="kt">UICircularProgressRingView</span><span class="p">:</span> <span class="kt">UIView</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span> <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">UICircularProgressRingGradientPosition</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
                       </div>
@@ -190,9 +182,9 @@ When they are set in here, they are also set for the layer and drawn accordingly
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VizAISDK@objc(cs)VizAIApp"></a>
-                    <a name="//apple_ref/swift/Class/VizAIApp" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VizAISDK@objc(cs)VizAIApp">VizAIApp</a>
+                    <a name="/c:@M@VizAISDK@E@UICircularProgressRingStyle"></a>
+                    <a name="//apple_ref/swift/Enum/UICircularProgressRingStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VizAISDK@E@UICircularProgressRingStyle">UICircularProgressRingStyle</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -200,15 +192,20 @@ When they are set in here, they are also set for the layer and drawn accordingly
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <h1 id='uicircularprogressringstyle' class='heading'>UICircularProgressRingStyle</h1>
 
-                        <a href="Classes/VizAIApp.html" class="slightly-smaller">See more</a>
+<p>This is an enumeration which is used to determine the style of the progress ring.</p>
+<h2 id='author' class='heading'>Author</h2>
+
+<p>Luis Padron</p>
+
+                        <a href="Enums/UICircularProgressRingStyle.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">VizAIApp</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span> <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">UICircularProgressRingStyle</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
                       </div>

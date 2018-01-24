@@ -128,14 +128,14 @@
     },
     {
       "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
-      "line": 78,
+      "line": 103,
       "symbol": "VizAIApp",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ethanpetersen/Desktop/VizAI/VizAISDK/VizAISDK/VizAISDK.swift",
-      "line": 640,
+      "line": 817,
       "symbol": "VizAIApp.captureOutput(_:didOutput:from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

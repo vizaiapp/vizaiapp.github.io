@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MultiArrayType Protocol Reference</title>
+    <title>UICircularProgressRingDelegate Protocol Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Protocol/MultiArrayType" class="dashAnchor"></a>
-    <a title="MultiArrayType Protocol Reference"></a>
+    <a name="//apple_ref/swift/Protocol/UICircularProgressRingDelegate" class="dashAnchor"></a>
+    <a title="UICircularProgressRingDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">VizAISDK Docs</a> (83% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">VizAISDK Reference</a>
         <img id="carat" src="../img/carat.png" />
-        MultiArrayType Protocol Reference
+        UICircularProgressRingDelegate Protocol Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -134,14 +134,24 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>MultiArrayType</h1>
+            <h1>UICircularProgressRingDelegate</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MultiArrayType</span><span class="p">:</span> <span class="kt">Comparable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">UICircularProgressRingDelegate</span><span class="p">:</span> <span class="kd">class</span></code></pre>
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>This is the protocol declaration for the UICircularProgressRingView delegate property</p>
+<h2 id='important' class='heading'>Important</h2>
+
+<p>When progress is done updating via UICircularProgressRingView.setValue(_:), the
+finishedUpdatingProgress(forRing: UICircularProgressRingView) will be called.</p>
+
+<p>The ring will be passed to the delegate in order to keep 
+track of multiple ring updates if needed.</p>
+<h2 id='author' class='heading'>Author</h2>
+
+<p>Luis Padron</p>
 
           </section>
           <section class="section task-group-section">
@@ -150,9 +160,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8VizAISDK14MultiArrayTypeP05multid4DataE0SC07MLMultidgE0OvZ"></a>
-                    <a name="//apple_ref/swift/Variable/multiArrayDataType" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK14MultiArrayTypeP05multid4DataE0SC07MLMultidgE0OvZ">multiArrayDataType</a>
+                    <a name="/s:8VizAISDK30UICircularProgressRingDelegateP016finishedUpdatingD0yAA0cdE4ViewC03forE0_tF"></a>
+                    <a name="//apple_ref/swift/Method/finishedUpdatingProgress(forRing:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8VizAISDK30UICircularProgressRingDelegateP016finishedUpdatingD0yAA0cdE4ViewC03forE0_tF">finishedUpdatingProgress(forRing:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -160,16 +170,35 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Delegate call back, called when progress ring is done animating for current value</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">multiArrayDataType</span><span class="p">:</span> <span class="kt">MLMultiArrayDataType</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">finishedUpdatingProgress</span><span class="p">(</span><span class="n">forRing</span> <span class="nv">ring</span><span class="p">:</span> <span class="kt"><a href="../Classes/UICircularProgressRingView.html">UICircularProgressRingView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ring</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The ring which finished animating</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -177,105 +206,41 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8VizAISDK14MultiArrayTypeP1poixx_xtFZ"></a>
-                    <a name="//apple_ref/swift/Method/+(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK14MultiArrayTypeP1poixx_xtFZ">+(_:_:)</a>
+                    <a name="/s:8VizAISDK30UICircularProgressRingDelegateP09didUpdateD5Valuey12CoreGraphics7CGFloatV2to_tF"></a>
+                    <a name="//apple_ref/swift/Method/didUpdateProgressValue(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8VizAISDK30UICircularProgressRingDelegateP09didUpdateD5Valuey12CoreGraphics7CGFloatV2to_tF">didUpdateProgressValue(to:)</a>
                     </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method is called whenever the value is updated, this means during animation this method will be called in real time.
+This can be used to update another label or do some other work, whenever you need the exact current value of the ring
+during animation.</p>
+<h2 id='important' class='heading'>Important:</h2>
 
+<p>This is a very hot method and may be called hundreds of times per second during animations. As such make sure to only
+do very simple and non-intensive work in this method. Do any work that takes time will considerably slow down your application.</p>
+
+<ul>
+<li>Paramater newValue: The value which the ring has updated to</li>
+</ul>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="o">+</span><span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="k">Self</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="k">Self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:8VizAISDK14MultiArrayTypeP1moixx_xtFZ"></a>
-                    <a name="//apple_ref/swift/Method/*(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK14MultiArrayTypeP1moixx_xtFZ">*(_:_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="o">*</span><span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="k">Self</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="k">Self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:8VizAISDK14MultiArrayTypePxSicfc"></a>
-                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK14MultiArrayTypePxSicfc">init(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:8VizAISDK14MultiArrayTypeP7toUInt8s0G0Vv"></a>
-                    <a name="//apple_ref/swift/Property/toUInt8" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8VizAISDK14MultiArrayTypeP7toUInt8s0G0Vv">toUInt8</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">toUInt8</span><span class="p">:</span> <span class="kt">UInt8</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">didUpdateProgressValue</span><span class="p">(</span><span class="n">to</span> <span class="nv">newValue</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
